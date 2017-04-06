@@ -2262,8 +2262,10 @@ function printFunctionDeclaration(path, print, options) {
 
   if (n.generator) parts.push("*");
 
+  parts.push(" ");
+
   if (n.id) {
-    parts.push(" ", path.call(print, "id"));
+    parts.push(path.call(print, "id"));
   }
 
   parts.push(
