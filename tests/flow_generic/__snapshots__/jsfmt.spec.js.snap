@@ -13,7 +13,7 @@ exports[`break.js 1`] = `
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 var X = {
-  perform: function<
+  perform: function <
     A,
     B,
     C,
